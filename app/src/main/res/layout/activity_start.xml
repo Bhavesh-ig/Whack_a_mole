@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/banner">
+
+    <!-- Wooden Banner -->
+
+
+    <!-- START GAME text on banner -->
+    <TextView
+        android:id="@+id/startBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="170dp"
+
+        android:focusable="true"
+        android:gravity="center"
+        android:shadowColor="#000000"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="3"
+
+        android:text="START GAME"
+        android:textColor="#5A2D0C"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
